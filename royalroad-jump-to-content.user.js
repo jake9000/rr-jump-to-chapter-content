@@ -2,8 +2,9 @@
 // @name         RR Jump to Chapter Content
 // @namespace    https://github.com/jake9000/rr-jump-to-chapter-content
 // @version      1.1.0
-// @description  Automatically scroll past the author's note and advertisement to the start of the chapter text on RoyalRoad.
-// @author       You
+// @description  Automatically scroll past the author's note and advertisement to the start of the chapter text on RoyalRoad. When arriving via a comment notification link (a URL ending in ?comment=<id>), it leaves the scroll position alone.
+// @author       jake9000
+// @license      MIT
 // @match        https://www.royalroad.com/fiction/*/*/chapter/*
 // @match        https://royalroad.com/fiction/*/*/chapter/*
 // @run-at       document-idle
